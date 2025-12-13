@@ -1,0 +1,68 @@
+/* --- GRID + BACKGROUND --- */
+.grid {
+  position: absolute;
+  inset: 0;
+
+  /* Dark blue background like screenshot */
+  background: radial-gradient(circle at 80% 30%, rgba(15, 20, 40, 0.6), #07070d 70%);
+
+  /* Grid lines */
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+
+  background-size: 120px 120px;  /* exactly like screenshot */
+  opacity: 0.9;                  /* stronger grid visibility */
+  z-index: -3;
+}
+
+/* --- MAIN BACKGROUND COLOR --- */
+body {
+  margin: 0;
+  background: #04050a;   /* deeper dark navy like screenshot */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* --- GLOWING RED STREAK (more accurate) --- */
+.streak {
+  position: absolute;
+  top: -20%;
+  left: -10%;
+  width: 160%;
+  height: 160%;
+  background: radial-gradient(
+    ellipse at 40% 50%,
+    rgba(255, 95, 120, 0.45),
+    rgba(0, 0, 0, 0)
+  );
+  transform: rotate(18deg);
+  filter: blur(140px);
+  opacity: 0.8;
+  z-index: -2;
+}
+
+/* RIGHT-SIDE RECTANGLE GLOW (like your screenshot) */
+.right-glow {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 220px;
+  height: 140px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(6px);
+  z-index: -1;
+}
+
+/* RIGHT-SIDE DOT */
+.dot {
+  position: absolute;
+  top: 29%;
+  right: 80px;
+  width: 12px;
+  height: 12px;
+  background: #fca79f;
+  border-radius: 50%;
+  z-index: 2;
+}
