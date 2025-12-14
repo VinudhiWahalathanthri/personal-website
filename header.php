@@ -7,16 +7,7 @@
     <title>Vynu Portfolio</title>
 
     <style>
-        body {
-            font-family: 'Urbanist', sans-serif;
-            background-color: #FFF5EB;
-            overflow-x: hidden;
-        }
-
-        /* Navigation Bar */
         .navbar-custom {
-            background-color: #2B2B2B;
-            border-radius: 50px;
             padding: 8px 20px;
             margin: 20px auto;
             max-width: 95%;
@@ -32,7 +23,7 @@
         }
 
         .brand-icon {
-            background-color: #FF8C42;
+
             width: 35px;
             height: 35px;
             border-radius: 50%;
@@ -63,7 +54,7 @@
 
 </head>
 
-<body>
+<body class="bg-transparent">
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -93,6 +84,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
+
+                    <div class="social-icons">
+                        <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+
                 </ul>
             </div>
         </div>

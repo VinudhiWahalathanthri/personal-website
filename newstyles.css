@@ -229,7 +229,7 @@ paragraph-grey{
 }
 
 .section-dark {
-  background: #000;
+  background: #10111a;
   position: relative;
   z-index: 2;
 }
@@ -239,4 +239,49 @@ paragraph-grey{
   color: #000;
   position: relative;
   z-index: 2;
+}
+
+.stat-card {
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.3s;
+  height: 100%;
+}
+
+.stat-card:hover {
+  background: rgba(255, 106, 42, 0.1);
+  border-color: #ff6a2a;
+  transform: translateY(-5px);
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  color: #ff6a2a;
+  margin-bottom: 15px;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(31, 31, 31);
+  margin-bottom: 5px;
+  font-family: 'Stack Sans Notch', sans-serif;
+}
+
+.stat-label {
+  color: #ff6a2a;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-description {
+  font-size: 13px;
+  opacity: 0.7;
+  line-height: 1.5;
+  margin: 0;
+  color: black;
 }
