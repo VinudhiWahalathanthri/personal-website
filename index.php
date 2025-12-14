@@ -236,7 +236,7 @@
         </div>
       </div>
       <div class="col-md-6 text-md-end mt-4 mt-md-0">
-        <p style="opacity:0.5; font-size:13px;">© 2025 Vinudhi Wahalathanthri. All rights reserved.</p>
+        <p style="opacity:0.5; font-size:13px;">© 2025 Made with ❤️ by Vinudhi. All rights reserved.</p>
       </div>
     </div>
   </div>
@@ -246,7 +246,8 @@
   <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
   <script src="uikit.js"></script>
   <script src="uikit-min.js"></script>
-
+    <script src="bootstrap.bundle.js"></script>
+    <script src="bootstrap.js"></script>
   <script>
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
