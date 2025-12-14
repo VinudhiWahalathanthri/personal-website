@@ -250,8 +250,6 @@ paragraph-grey{
 
 .section-dark {
   background: #10111a;
-  position: relative;
-  z-index: 2;
 }
 
 .section-light {
